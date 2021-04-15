@@ -1,0 +1,20 @@
+{
+  "name": "openapi-validator",
+  "version": "1.0.0",
+  "description": "Node CLI script to validate OPENAPI Json and Yaml files using validator.swagger.io",
+  "main": "validator.js",
+  "scripts": {
+    "validate": "node validator.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openapi",
+    "validator",
+    "swagger-ui"
+  ],
+  "author": "Fenn-CS",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
