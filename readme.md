@@ -1,4 +1,4 @@
-# `OpenAPI` File Validator
+# `OpenAPI` File Checker
 
 This script uses [`https://validator.swagger.io/`](https://validator.swagger.io/) to validate an `OPENAPI` file.
 
