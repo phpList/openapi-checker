@@ -1,11 +1,14 @@
 {
   "name": "openapi-checker",
-  "version": "1.0.0",
+  "version": "1.1.4",
   "description": "Node CLI script to validate OPENAPI Json and Yaml files using validator.swagger.io",
   "main": "validator.js",
   "scripts": {
     "validate": "node validator.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "openapi-checker": "./validator.js"
   },
   "repository": {
     "type": "git",

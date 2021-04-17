@@ -1,8 +1,8 @@
-# `OpenAPI` File Checker
+# `openapi-checker`
 
-This script uses [`https://validator.swagger.io/`](https://validator.swagger.io/) to validate an `OPENAPI` file.
+Checks structural and semantic errors in `OPENAPI` files (json and yaml) by posting passed files to [`https://validator.swagger.io/`](https://validator.swagger.io/).
 
 ## Usage
 ---
-- Run `npm install`
-- Run `npm run validator /path/to/file` to validate your `OPENAPI` file.
+- Run `npm install -g openapi-checker`
+- Run `openapi-checker /path/to/file` to validate your `OPENAPI` file.
